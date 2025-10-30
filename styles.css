@@ -1,0 +1,101 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ }
+
+body{
+ font-family: system-ui, -apple-system, "segoe-UI", Roboto, "Helvetica Neue", Arial;
+ background: linear-gradient(180deg, #efeff0 0%, #fcfcfc 100%);
+ color: #111827;
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.container{
+ width: 100%;
+ max-width: 720px;
+ padding: 24px;
+ background: #ffffff;
+ border-radius: 12px;
+ box-shadow: 0 8px 24px rgba(17,24,39,0.08);
+}
+
+h1{
+ font-size: 28px;
+ margin-bottom: 8px;
+}
+
+.subtitle{
+ color: #6b7280;
+ margin-bottom: 16px;
+}
+
+#task-form{
+ display: flex;
+ gap: 8px;
+ margin-bottom: 16px;
+}
+
+#task-input{
+ flex: 1;
+ padding: 10px 12px;
+ border: 1px solid #e5e7eb;
+ border-radius: 8px;
+ font-size: 16px;
+}
+
+#task-form button{
+ padding: 10px 14px;
+ border: none;
+ border-radius: 8px;
+ background: #2563eb;
+ color: white;
+ font-weight: 600;
+ cursor: pointer;
+}
+
+#task-list{
+ list-style: none;
+ display: flex;
+ flex-direction: column;
+ gap: 8px;
+}
+
+.task-item{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 10px 12px;
+ border: 1px solid #eef2ff;
+ border-radius: 8px;
+ background:  #f9fafb;
+}
+
+
+.task-item.completed .task-text{
+ text-decoration: line-through;
+ color: #6b7280;
+
+}
+
+
+.task-actions {
+ display: flex;
+ gap: 8px;
+}
+
+.action-btn {
+ border: none;
+ background: transparent;
+ cursor: pointer;
+ font-weight: 600;
+ padding: 6px 8px;
+ border-radius: 6px;
+}
+
+.action-btn.delete {
+ color: #ef4444;
+}
