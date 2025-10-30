@@ -31,8 +31,8 @@ Siga estes passos simples para rodar o TaskMaster em sua máquina:
 
 1.  **Clone o Repositório:** Abra seu Terminal ou Git Bash e clone o projeto usando a URL HTTPS:
     ```bash
-    git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
-    ```
+  
+
 
 2.  **Acesse a Pasta:** Navegue até o diretório do projeto:
     ```bash
